@@ -87,7 +87,7 @@ resource "aws_lambda_permission" "allow_cloudwatch_stop" {
 resource "aws_lambda_function" "auto_start_ec2_lambda" {
   filename      = "ec2_lambda_handler.zip"
   function_name = "autoStartEC2Lambda"
-  role          = "${aws_iam_role.auto_stop_start_ec2_role.arn}"
+  role          = aws_iam_role.auto_start_stop_ec2_role.arn
   handler       = "ec2_lambda_handler.start"
 
   source_code_hash = "${filebase64sha256("ec2_lambda_handler.zip")}"
