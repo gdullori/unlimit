@@ -22,6 +22,6 @@ https://rb.gy/pix4tl
 
 
 Additional:
-setup the ec2instances with the Auto-start-stop tag
-used for generating plan diagram https://hieven.github.io/terraform-visual/plan-details
-draw.io for creating the workflow daigram
+setup the ec2instances with the Auto-start-stop tag. 
+Used for generating plan diagram https://hieven.github.io/terraform-visual/plan-details
+draw.io for creating the workflow daigram.
