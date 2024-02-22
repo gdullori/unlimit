@@ -16,12 +16,10 @@ The next step is to define the CloudWatch rules that will trigger the execution 
 The last step needed to grant the permissions to the CloudWatch is to execute the lambda function. This is a necessary step and without it, the CloudWatch will fail to trigger the lambda function.
 
 References:
-https://www.youtube.com/watch?v=instSVC6gk0
-https://www.youtube.com/watch?v=w-HUkVKd1pw
-https://rb.gy/pix4tl
+https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/iam_policy, https://www.youtube.com/watch?v=instSVC6gk0, https://www.youtube.com/watch?v=w-HUkVKd1pw, https://rb.gy/pix4tl, https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/iam_role, https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/iam_policy_attachment, https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/lambda_function, https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/cloudwatch_event_permission, https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/cloudwatch_event_rule
 
 
 Additional:
-setup the ec2instances with the Auto-start-stop tag. 
+setup the ec2instances with the tag. 
 Used for generating plan diagram https://hieven.github.io/terraform-visual/plan-details
 draw.io for creating the workflow daigram.
